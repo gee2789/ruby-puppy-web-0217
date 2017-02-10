@@ -10,11 +10,11 @@ class Dog
   end
 
   def self.clear_all
-    all.clear
+    @@all.clear
   end
 
   def self.all
-    all.each do |dog|
+    @@all.each do |dog|
       puts "#{dog.name}" #each "dog" has a name function
     end
   end
